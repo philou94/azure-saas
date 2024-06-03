@@ -3,7 +3,7 @@ using Saas.Permissions.Service.Models;
 using Saas.Shared.Options;
 
 namespace Saas.Permissions.Service.Middleware;
-
+    
 public class ApiKeyMiddleware(IOptions<PermissionsApiOptions> permissionOptions, RequestDelegate next)
 {    
     private readonly RequestDelegate _next = next;

@@ -1,16 +1,16 @@
 { 
   "initConfig": {
-    "userPrincipalId": "",
-    "subscriptionId": "",
-    "tenantId": "",
+    "userPrincipalId": "b3db5b9a-dcf2-4271-a1c3-cb93a4badf44",
+    "subscriptionId": "4cbdfa0a-8baf-4d6b-9f80-590764693eaf",
+    "tenantId": "642e00d5-9f7c-4fc5-9c67-520e7c55ecf5",
     "location": "",
     "naming": {
-      "solutionPrefix": "asdk",
-      "solutionName": "test"
+      "solutionPrefix": "Vsi",
+      "solutionName": "Identity"
     },
     "azureb2c": {
-      "location": "Europe",
-      "countryCode": "DK",
+      "location": "United States",
+      "countryCode": "US",
       "skuName": "PremiumP1",
       "tier": "A0"
     }

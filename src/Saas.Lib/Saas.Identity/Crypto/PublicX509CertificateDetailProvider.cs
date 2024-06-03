@@ -9,6 +9,7 @@ using Saas.Identity.Model;
 using Saas.Identity.Crypto.Util;
 
 namespace Saas.Identity.Crypto;
+
 public class PublicX509CertificateDetailProvider(
     IMemoryCache memoryCache,
     ILogger<PublicX509CertificateDetailProvider> logger) : IPublicX509CertificateDetailProvider

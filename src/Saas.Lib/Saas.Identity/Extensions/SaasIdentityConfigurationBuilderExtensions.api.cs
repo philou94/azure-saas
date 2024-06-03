@@ -8,6 +8,7 @@ using Saas.Shared.Interface;
 using Saas.Shared.Options;
 
 namespace Saas.Identity.Extensions;
+
 public static partial class SaasIdentityConfigurationBuilderExtensions
 {
 

@@ -19,7 +19,6 @@ public record AzureAdB2CBase
     public KeyVaultCertificate[]? KeyVaultCertificateReferences { get; init; }
 }
     
-
 public record KeyVaultCertificate : IKeyVaultInfo
 {
     public string? SourceType { get; init; }

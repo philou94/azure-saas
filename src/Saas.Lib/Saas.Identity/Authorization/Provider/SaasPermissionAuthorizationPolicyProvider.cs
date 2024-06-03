@@ -6,6 +6,7 @@ using Saas.Identity.Authorization.Requirement;
 using System.Reflection;
 
 namespace Saas.Identity.Authorization.Provider;
+
 public class SaasPermissionAuthorizationPolicyProvider(
     IOptions<AuthorizationOptions> options) : DefaultAuthorizationPolicyProvider(options)
 {

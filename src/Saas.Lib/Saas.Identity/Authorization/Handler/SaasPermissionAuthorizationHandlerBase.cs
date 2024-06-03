@@ -9,6 +9,7 @@ using System.Collections;
 using System.Security.Claims;
 
 namespace Saas.Identity.Authorization.Handler;
+
 public abstract class SaasPermissionAuthorizationHandlerBase<TSaasRequirement, TSaasPermissionKind>(
     IHttpContextAccessor httpContextAccessor,
     IOptions<SaasAuthorizationOptions> saasAuthorizationOptions) : AuthorizationHandler<TSaasRequirement>
